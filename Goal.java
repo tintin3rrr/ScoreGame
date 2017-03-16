@@ -22,6 +22,7 @@ public class Goal extends Actor
     if (ball != null) {
         getWorld().removeObject(ball);
         Score.score++;
+Greenfoot.playSound("cheer.wav");
   
     
      

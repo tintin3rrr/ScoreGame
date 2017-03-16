@@ -16,8 +16,8 @@ public class ScoreBoard extends World
     public ScoreBoard()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(1024, 768, 1); 
-        addObject(new home(),961,56);
+    super(1000, 900, 1); 
+        addObject(new home(),930,61);
     addObject(new Score(),527,61);
   
     }

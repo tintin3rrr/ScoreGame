@@ -17,12 +17,12 @@ public class MyWorld extends World
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(1200, 750, 1); 
-         addObject(new mode1(),102,689);
-        addObject(new mode2(),301,690);
-        addObject(new mode3(),503,690);
-        addObject(new howto(),122,593);
-        addObject(new logo(),419,266);
+        super(1000, 900, 1); 
+         addObject(new mode1(),111,832);
+        addObject(new mode2(),299,832);
+        addObject(new mode3(),492,832);
+        addObject(new howto(),132,731);
+        addObject(new logo(),402,318);
         
     }
     public void started(){

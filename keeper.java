@@ -37,6 +37,8 @@ public void save(){
     if (ball != null) {
         getWorld().removeObject(ball);
         Life.life--;
+Greenfoot.playSound("kick3.wav");
+
   
     
      
